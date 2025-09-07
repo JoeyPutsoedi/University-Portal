@@ -1,0 +1,150 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<link rel="stylesheet" href="~/css/styles.css" />
+<link rel="stylesheet" href="fontawesome/css/all.css"/>
+
+<div class="container-fluid border-bottom mb-3">
+    <h1 id="header1">Welcome to the Central University of Technology</h1>
+
+    <div class="home-container">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="~/images/cut-bkg-one.jpg" class="d-block w-100" alt="This is image 1">
+                    <div class="carousel-caption d-none d-md-block">
+
+                        <h5>Thinking Beyond!</h5>
+                        <p>
+                            Here we help prospective students turn dreams into reality and encourage them to dream even<br />
+                            bigger because we believe with hard work and dedication no dream is too far to reach.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="~/images/cut-bkg-two.jpg" class="d-block w-100" alt="this is image 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Celebrating 20 Years!</h5>
+                        <p>
+                            We've been previlliged with having to produce some of the sharperst minds and athletes for 20 years and we are<br />
+                            beyond excited to see what the years to come have in store for .
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="~/images/cut-bkg-three.jpg" class="d-block w-100" alt="This is image 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Enroll Now</h5>
+                        <p>Applications for 2025 are open. Enroll now and become a member of the CUT family <br /> what are you waiting for? </p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="student-life">
+            <h3 class="stheader"> STUDENT LIFE ON CUT</h3>
+        </div>
+
+        <p class="text-para">
+                 CUT offers high quality education and facilities. we're privilliged to have sharpened some of the most prestigous minds<br />
+                our institution offers a variety of courses for students to choose from. we also offer facilities and resources for <br />
+                extra curricular activities the likes of soccer, rugby, hockey and many more. we believe that a sharp mind needs a fit body to accompany it<br />
+                which is why we encourage our students to be involved in atleast one.<br /><br /><br />
+                Our institution also has facilities that promote & stimulate intellectual growth, our library which has high quality resources and the i-gym <br />
+            which caters to our students with dreams and big ideas.<br /><br />
+        </p>
+        <div class="f-icons">
+            <i class="fa-solid fa-school fa-4x"></i>
+
+            <i class="fa-solid fa-book fa-4x"></i>
+            <i class="fa-solid fa-trophy fa-4x"></i>
+        </div>
+        <div class="ads">
+            
+            <div>
+                <img src="~/images/adone.JPG" />
+                <a asp-controller="Student" asp-action="Sports">
+                    <h5>
+                    Sports
+                </h5></a>
+             </div>
+               
+            <div>
+                <img src="~/images/adtwo.JPG" />
+                  <a asp-controller="Student" asp-action="IGym">
+               <h5>
+                   i-Gym>
+               </h5></a>
+            </div>
+
+            <div>
+                <img src="~/images/adthree.JPG" />
+                 <a asp-controller="Student" asp-action="Library">
+               <h5>
+                   Library
+               </h5></a>
+            </div>
+
+            <div>
+                <img src="~/images/adfour.JPG" />
+                 <a asp-controller="Student" asp-action="Wellness">
+              <h5>
+                  Wellness
+              </h5></a>
+            </div>
+        </div>
+       <div class="about d-flex justify-content-around">
+           <div class="bkg-about">
+          <a asp-controller="Student" asp-action="About">    
+          <h5>About CUT</h5></a>
+           </div>
+
+       </div>
+
+    </div>
+    <footer class="border-top">
+        <div class="footer-items">
+            <div>
+
+            <img src="~/images/cut-header-logo.png" width="100px" height="60px" />
+            </div><br />
+        </div>
+        <div class="callus">
+            <div>
+                <p> <i class="fa-solid fa-phone "></i>  : +27(0)515073911 - Bloemfontein Campus</p><br />
+            <i class="fa-solid fa-house fa-2x"></i><br />
+            <p>20 President Brand Street | Westdene | Bloemfontein | 9300 | South Africa </p>
+           </div>
+
+        </div>
+
+           
+
+        <div class="footer-icons">
+            <a asp-action="https://www.facebook.com/CUTFreeState/wall/"><i class="fa-brands fa-linkedin fa-2x"></i> </a>
+            <a asp-action="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fschool%2Fcentral-university-of-technology-free-state%2Fmycompany%2F%3FviewAsMember%3Dtrue"><i class="fa-brands fa-facebook fa-2x"></i></a>
+           
+            <a asp-action="https://twitter.com/cutfsonline"><i class="fa-brands fa-square-x-twitter fa-2x"></i> </a>
+        </div>
+
+    </footer>
+
+
+
+
+    <br />
+</div>
+

@@ -1,0 +1,30 @@
+﻿/*<-----------CREATE CSS-------------->*/
+
+
+#form-container {
+    display: flex;
+    justify-content: center;
+}
+
+    #form-container p {
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    #form-container h1 {
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    #form-container a {
+        color: white;
+    }
+
+
+
+#side {
+    width: 10px;
+    height: 10px;
+}

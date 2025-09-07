@@ -1,0 +1,70 @@
+﻿@model ASPNETCore_DB.Models.Student
+
+@{
+    ViewData["Title"] = "Create";
+}
+<link rel="stylesheet" href="~/css/styles.css" />
+<link rel="stylesheet" href="~/css/create.css" />
+
+<div id="form-container" class="row">
+    <h1>Create</h1>
+    <p class="student">Student</p>
+    <div class="col-md-4 text-light">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="StudentNumber" class="control-label"></label>
+                <input asp-for="StudentNumber" class="form-control bg-info"  />
+                <span asp-validation-for="StudentNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstName" class="control-label"></label>
+                <input asp-for="FirstName" class="form-control bg-info"  />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Surname" class="control-label"></label>
+                <input asp-for="Surname" class="form-control bg-info"  />
+                <span asp-validation-for="Surname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EnrollmentDate" class="control-label"></label>
+                <input asp-for="EnrollmentDate" class="form-control bg-info"  />
+                <span asp-validation-for="EnrollmentDate" class="text-danger"></span>
+            </div>
+            @* Displaying image*@
+            <div class="form-group row">
+                <div class="col-4">
+                    Photo
+                    <img src="~/images/DefaultPic.png" width="100" style="border-radius:5px; border:1px solid white" />
+                    @*                    <img src="@WebConstants.ImagePath@Model.Photo" width="100" style="border-radius:5px; border: 1px solid white" />
+                    *@
+                </div>
+            </div>
+
+            @* Uploading Image*@
+            <div class="form-group row">
+                <div class="col-8">
+                    <input type="file" name="files" id="uploadBox" multiple class="form-control" />
+                </div>
+            </div>
+
+            <div class="form-group-btn" id="btn">
+                <input id="form-button" type="submit" value="Create" class="btn btn-primary bg-warning d-flex justify-content-center" />
+            </div>
+            <div class="form-group">
+                <p><a href="\Views\Student\Details.cshtml" onclick="student()">Back to list</a></p>
+            </div>
+        </form>
+    </div>
+</div>
+
+<footer>
+    <img src="~/images/waves.png" width="100%"/>
+</footer>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

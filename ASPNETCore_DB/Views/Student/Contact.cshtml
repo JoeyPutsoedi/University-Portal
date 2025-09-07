@@ -1,0 +1,27 @@
+﻿<link rel="stylesheet" href="~/css/styles.css" />
+<link rel="stylesheet" href="~/css/contact.css" />
+
+<body class="contact-body">
+
+
+
+    <!--------COLUMNS---------->
+    <div class="contact-columns">
+        <!--------LEFT COLUMN---------->
+        <form asp-action="Contact" class="contact-left-column">
+            <div class="contact-left-title">
+                <h2 class="contact-us">Contact Us</h2>
+                <hr class="line">
+            </div>
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs bg-info" required>
+            <input type="email" name="email" placeholder="Your email" class="contact-inputs bg-info" required>
+            <textarea name="emailMessage" placeholder="Your Message" class="contact-inputs bg-info" required></textarea>
+            <button type="submit">submit<i class="fa-solid fa-right-long 2x"></i></button>
+        </form>
+
+
+    </div>
+
+</body>
+
+

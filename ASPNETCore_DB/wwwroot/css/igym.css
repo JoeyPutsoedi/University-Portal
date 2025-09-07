@@ -1,0 +1,19 @@
+﻿.igym-body {
+    padding: 10px;
+    margin: 10px;
+}
+
+.igym-columns {
+    padding: 40px;
+}
+
+
+
+.igym-left-title hr {
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #618aac;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,76 @@
+﻿*{
+    margin:0;
+    padding:0;
+    background-color:#23324b;
+    color:white;
+}
+.nav-item a{
+    color:white;
+}
+#header1{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+.student-life {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.stheader {
+    background-color: white;
+    color: #23324b;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+}
+.text-para {
+    background-color: white;
+    color: #23324b;
+    text-align:center;
+    font-size:15px;
+    font-weight:bold;
+}
+.f-icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin:45px;
+}
+.ads{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    grid-gap:1rem;
+    text-align:center;
+    margin-top:10px;
+}
+.callus {
+   text-align:center;
+}
+.footer-items {
+padding-top:5px;
+    display: flex;
+    justify-content: center;
+}
+.footer-icons {
+    display: flex;
+   
+    justify-content: space-around;
+  
+}
+.about h5 {
+    font-weight:700;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color: #23324b;
+    background-color: white;
+    height:20vh;
+    width:99vw;
+}
+
+
+
+
+
