@@ -2,16 +2,13 @@
 
 Central University Of Technology Student Enrollment
 <h1>Description</h1>
-<p><em> <strong>mobile first online fragrance for him & her<br/></em></strong>
-Not only does this project have a charming design but it also has industry standard functionality <br/><br/>
-*Register New Users - user first name, last name <br/>
- email address, phone number, id number stored on firebase. <br/><br/>
-*Use Registered user credentials to log into app<br/><br/>
-*Landing Page with beatiful animation & hamburger menu for user profile,<br/>
-order details, reviews & logout page<br/><br/>
-*Main Shopping page with shopping cart, offers on sale<br/>
-fragrances & sorting functionality.<br/><br/>
-*Shopping card with cash on delivery/ online payment methods.<br/><br/>
+<p> An Enrollment management system for prospects looking to enroll at  <br/>
+ The Central university of Technology Free-State. <br/><br/>
+This effective but easy to use system enables prospects to register and generates unique<br/>
+ Student Numbers for each prospect. a User/Prospect can view applications from other users aswell as
+  <br/>edit their own information on the system.<br/>
+ a User cannot delete their application nor can they delete another user's application.<br/><br/>
+
   
 <h1>Languages and Utilities</h1>
 <ul>
