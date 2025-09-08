@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University Portal (CUT)\\ASPNETCore_DB\\ASPNETCore_DB.csproj": {}
+    "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\ASPNETCore_DB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University Portal (CUT)\\ASPNETCore_DB\\ASPNETCore_DB.csproj": {
+    "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\ASPNETCore_DB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University Portal (CUT)\\ASPNETCore_DB\\ASPNETCore_DB.csproj",
+        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\ASPNETCore_DB.csproj",
         "projectName": "ASPNETCore_DB",
-        "projectPath": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University Portal (CUT)\\ASPNETCore_DB\\ASPNETCore_DB.csproj",
+        "projectPath": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\ASPNETCore_DB.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University Portal (CUT)\\ASPNETCore_DB\\obj\\",
+        "outputPath": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -47,11 +47,11 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.28, )"
+              "version": "[6.0.35, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[6.0.28, )"
+              "version": "[6.0.35, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -69,7 +69,7 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.28, )"
+              "version": "[6.0.35, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
@@ -83,7 +83,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.16, )"
+              "version": "[6.0.18, )"
             }
           },
           "imports": [
