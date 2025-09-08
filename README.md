@@ -25,7 +25,7 @@ Password: Test!123<br/></p>
 <h1>Environment Used</h1>
 <ul>
   <li>Windows 10</li>
-  <li>Visual Studio Code</li>
+  <li>Visual Studio</li>
 </ul>
 <h2>Complete Portfolio Walkthrough On Youtube:</h2>
 <h3 font-size="30px"><a href="https://youtu.be/N7nVBcuwQDM?si=yNTHTitRRVbTYOFm">CLICK ME :)</a></h3>
