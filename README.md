@@ -8,13 +8,19 @@ This effective but easy to use system enables prospects to register and generate
  Student Numbers for each prospect. a User/Prospect can view applications from other users aswell as
   <br/>edit their own information on the system.<br/>
  a User cannot delete their application nor can they delete another user's application.<br/><br/>
-
-  
+On the admin side of things, the admin can view all applications, delete them but CANNOT edit the user/prospects'<br/>
+ personal information.<br/><br/>
+<strong>To Log in as admin: </strong><br/>
+Email: admin@gmail.com <br/>
+Password: Test!123<br/></p>
+ 
 <h1>Languages and Utilities</h1>
 <ul>
-  <li>Dart</li>
-  <li>Flutter</li>
-  <li>Firebase</li>
+  <li>Asp.net core</li>
+ <li>Bootstrap</li>
+  <li>C#</li>
+ <li>CSS</li>
+  <li>Javascript</li>
 </ul>
 <h1>Environment Used</h1>
 <ul>
