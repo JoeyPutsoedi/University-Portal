@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio projects\\cut portal\\university-portal\\aspnetcore_db\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio projects\\cut portal\\university-portal\\aspnetcore_db\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio projects\\cut portal\\university-portal\\aspnetcore_db\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio projects\\cut portal\\university-portal\\aspnetcore_db\\views\\student\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:views\\student\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio projects\\cut portal\\university-portal\\aspnetcore_db\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio projects\\cut portal\\university-portal\\aspnetcore_db\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -54,7 +74,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "styles.css",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\wwwroot\\css\\styles.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\styles.css",
@@ -63,12 +83,76 @@
               "ViewState": "AQIAACsAAAAAAAAAAAAAAEcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-05-05T17:19:04.167Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\Views\\Student\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\Views\\Student\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Student\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T16:05:14.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\Views\\Student\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\Views\\Student\\Contact.cshtml",
+              "RelativeToolTip": "Views\\Student\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T15:56:40.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\Views\\Student\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\Views\\Student\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Student\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T15:56:28.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Create.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "Views\\Student\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T15:54:49.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\Views\\Student\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Details.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\Views\\Student\\Details.cshtml",
+              "RelativeToolTip": "Views\\Student\\Details.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T15:54:43.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
@@ -81,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "PersonalData.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
@@ -89,12 +173,11 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-08T19:21:33.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-08T19:21:33.159Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ChangePassword.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
@@ -102,12 +185,11 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
               "ViewState": "AQIAAAoAAAAAAAAAAAAAABgAAACEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-08T19:11:39.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-08T19:11:39.231Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "SetPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
@@ -115,12 +197,11 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-08T19:01:36.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-08T19:01:36.63Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "bootstrap.css",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
               "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -128,12 +209,11 @@
               "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
               "ViewState": "AQIAAJ4IAAAAAAAAAAAswL4IAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-09T08:43:48.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T08:43:48.992Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -141,12 +221,11 @@
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AQIAAAoAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-05T17:18:57.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T17:18:57.315Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -154,12 +233,11 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAAC8AAACGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-04T05:32:05.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-04T05:32:05.746Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "SQLiteDBContext.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\Data\\SQLiteDBContext.cs",
               "RelativeDocumentMoniker": "Data\\SQLiteDBContext.cs",
@@ -167,12 +245,11 @@
               "RelativeToolTip": "Data\\SQLiteDBContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T05:18:44.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-04T05:18:44.424Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "about.css",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\wwwroot\\css\\about.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\about.css",
@@ -180,8 +257,7 @@
               "RelativeToolTip": "wwwroot\\css\\about.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-13T09:40:38.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-13T09:40:38.139Z"
             }
           ]
         }
