@@ -33,9 +33,9 @@ Password: Test!123<br/></p>
 <h2>DISCLAIMER: </h2>
 <p>NO AI OR TEMPLATES WERE USED IN THE CREATION OF THIS PROJECT</p>
 <p align="center"> SCREENSHOTS: </p>
-<img width="1366" height="720" alt="Screenshot (90)" src="https://github.com/user-attachments/assets/a10415c1-bab2-494f-9d34-3cb0a3ffb99f" />
-<img width="1366" height="724" alt="Screenshot (89)" src="https://github.com/user-attachments/assets/900dc2f7-f4f4-40a2-adf1-bf88ee560d34" />
-<img width="1366" height="724" alt="Screenshot (88)" src="https://github.com/user-attachments/assets/90910108-2517-4499-8f6e-98dff4d358ce" />
-<img width="1366" height="728" alt="Screenshot (86)" src="https://github.com/user-attachments/assets/bf4951e7-7c34-415f-a4bd-872471006201" />
+<img width="1366" height="768" alt="Screenshot (95)" src="https://github.com/user-attachments/assets/c44275e1-70c8-4d7d-8c58-6b7648c4c6e7" />
+<img width="1366" height="768" alt="Screenshot (96)" src="https://github.com/user-attachments/assets/ca2f5b8f-26ba-4c42-8e2b-004844ebf3d6" />
+<img width="1366" height="768" alt="Screenshot (97)" src="https://github.com/user-attachments/assets/49a12669-ab7d-4b20-923b-70b79c70c15d" />
+
 
 
