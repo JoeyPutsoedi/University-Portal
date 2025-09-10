@@ -28,7 +28,7 @@ Password: Test!123<br/></p>
   <li>Visual Studio</li>
 </ul>
 <h2>Complete Portfolio Walkthrough On Youtube:</h2>
-<h3 font-size="30px"><a href="https://youtu.be/N7nVBcuwQDM?si=yNTHTitRRVbTYOFm">CLICK ME :)</a></h3>
+<h3 font-size="30px"><a href="https://youtu.be/6WNsYcb-Wy4">CLICK ME :)</a></h3>
 
 <h2>DISCLAIMER: </h2>
 <p>NO AI OR TEMPLATES WERE USED IN THE CREATION OF THIS PROJECT</p>
