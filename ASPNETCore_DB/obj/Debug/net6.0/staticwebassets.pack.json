@@ -8657,10 +8657,6 @@
       "PackagePath": "staticwebassets\\images\\95b78f46-1570-43b9-8132-db0f2146a048.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\wwwroot\\images\\DefaultPic.png",
-      "PackagePath": "staticwebassets\\images\\DefaultPic.png"
-    },
-    {
       "Id": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\wwwroot\\images\\a0f517a3-54b4-417c-a12f-408ecb9826a3.jpg",
       "PackagePath": "staticwebassets\\images\\a0f517a3-54b4-417c-a12f-408ecb9826a3.jpg"
     },
@@ -8683,6 +8679,14 @@
     {
       "Id": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\wwwroot\\images\\adtwo.JPG",
       "PackagePath": "staticwebassets\\images\\adtwo.JPG"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\wwwroot\\images\\bb6b4def-cc58-494a-a08a-44cb88297907.png",
+      "PackagePath": "staticwebassets\\images\\bb6b4def-cc58-494a-a08a-44cb88297907.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\wwwroot\\images\\c4b84eab-c40e-48a2-a34d-b1e9b25b5ee3.png",
+      "PackagePath": "staticwebassets\\images\\c4b84eab-c40e-48a2-a34d-b1e9b25b5ee3.png"
     },
     {
       "Id": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\wwwroot\\images\\cut-Logo.PNG",
@@ -8711,6 +8715,10 @@
     {
       "Id": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\wwwroot\\images\\df7d4c45-9e54-443a-a8f3-0afe64f51524.png",
       "PackagePath": "staticwebassets\\images\\df7d4c45-9e54-443a-a8f3-0afe64f51524.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\wwwroot\\images\\e062510d-ffee-4ba1-8b52-d9f2af5a9ce6.png",
+      "PackagePath": "staticwebassets\\images\\e062510d-ffee-4ba1-8b52-d9f2af5a9ce6.png"
     },
     {
       "Id": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Projects\\Cut Portal\\University-Portal\\ASPNETCore_DB\\wwwroot\\images\\f56dd0de-d793-4a82-8b9b-e2364c7b81e6.jpg",
