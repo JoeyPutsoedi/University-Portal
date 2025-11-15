@@ -2,6 +2,7 @@
     font-family: sanfransisco;
     src: url("../fonts/SFUI/SFUIText-Regular.otf");
 }
+
 @font-face {
     font-family: thin;
     src: url("../fonts/SFUI/SFUIText-Light.otf");
@@ -13,8 +14,11 @@
     overflow-x: hidden;
     font-family: sanfransisco;
 }
-
+.home-ccontainer{
+    padding:0;
+}
 .navigation-shared {
+    position: sticky;
     height: 4em;
     width: 100%;
     padding: 0em 0.4em 0 0.2em;
@@ -117,7 +121,7 @@
 .article-wrapper {
     padding: 0em 2em 1em 2em;
     display: flex;
-    justify-content: space-around;
+    gap: 0.9em;
 }
 
 .article-cont {
@@ -164,25 +168,21 @@
 
     .article-text p {
         height: 100%;
-      
     }
 
     .article-text div {
-     
         width: 100%;
         height: 100%;
         padding-left: 1em;
-
         font-size: 13px;
-      
     }
 
     .article-text a {
         color: darkgrey;
     }
-
+/*--------------------------------------ABOUT SECTION--------------------------------------*/
 .about-container .about-bttn {
-    margin: 4em auto 4em auto;
+    margin: 7em auto 4em auto;
     text-align: center;
     border: 1px solid black;
     width: 7em;
@@ -190,23 +190,26 @@
     border-radius: 1em;
     place-content: center;
 }
-.about-container .text-para{
+
+.about-container .text-para {
     text-align: center;
 }
-.about-container .excellence {
 
-/*    background-color: whitesmoke;*/
+.about-container .excellence {
+    /*    background-color: whitesmoke;*/
     height: 42em;
     display: flex;
- margin-top: 2em;
+    margin-top: 7em;
     margin-left: auto;
     margin-right: auto;
 }
+
 .excellence .image-section {
     width: 60%;
     border: 1px solid grey;
 }
-.excellence img{
+
+.excellence img {
     object-fit: cover;
 }
 
@@ -218,14 +221,14 @@
     display: grid;
     grid-template-rows: repeat(1fr);
 }
-.excellence .points{
+
+.excellence .points {
     border-bottom: 1px solid grey;
 }
 
-.excellence h1{
+.excellence h1 {
     margin: 1em 0 0 0.5em;
-    font-size:1.8em;
- 
+    font-size: 1.8em;
 }
 
 .excellence p {
@@ -234,4 +237,74 @@
     font-family: thin;
     font-size: 1em;
     line-height: 1.2em;
+}
+/*--------------------------------------FACULTIES SECTION--------------------------------------*/
+.faculties-cont {
+    margin-top: 9em;
+    height: 45em;
+}
+
+    .faculties-cont h1 {
+        margin-bottom: 2em;
+        text-align: center;
+        font-weight: 500;
+        font-size: 2.8em;
+    }
+
+.faculties {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5em;
+    width: 100%;
+    padding: 1em;
+}
+
+    .faculties .faculty-item {
+        background-color: white;
+        height: 15em;
+        width: 100%;
+        border-radius: .7em;
+        border: 1px solid grey;
+        display: grid;
+        grid-auto-rows: 2fr 1fr;
+        cursor: pointer;
+    }
+
+.faculty-item .emblem {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+.emblem i {
+    font-size: 5em;
+    overflow: hidden;
+}
+
+.faculty-item p {
+    margin-top: 0.2em;
+    text-align: center;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.faculty-item .faculty-title {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+
+.faculty-item .faculty-cl {
+    width: 7em;
+    height: 0.7em;
+    
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: .5em;
+}
+/*--------------------------------------FOOTER SECTION--------------------------------------*/
+.footer-section{
+    height: 40em;
+    background-color: dodgerblue;
+        padding: 0.7em;
+       
 }
