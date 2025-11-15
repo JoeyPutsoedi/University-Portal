@@ -75,7 +75,6 @@
 }
 
 .stats-container {
-  
     width: 100%;
     height: 17em;
     background-color: whitesmoke;
@@ -103,6 +102,7 @@
     line-height: 1.2em;
 }
 
+/*--------------------------------------ARTICLES SECTION--------------------------------------*/
 .articles-section h1 {
     margin-block: 3em;
     text-align: center;
@@ -123,11 +123,13 @@
     border-radius: 0.9em;
     padding: 0 0.5em 0 0.5em;
 }
-.article-cont:hover{
-    background-color: black;
-    color: white;
-    transition: 0.7s;
-}
+
+    .article-cont:hover {
+        background-color: rgb(56, 56, 56);
+        color: white;
+        transition: 0.7s;
+    }
+
     .article-cont img {
         width: 100%;
         height: 15em;
@@ -151,24 +153,28 @@
     }
 
 .article-text {
-    display: flex;
-    flex-direction: column;
-
+    height: 37%;
+    display: grid;
+    grid-auto-rows: 3fr 1fr;
 }
 
-    .article-text div {
-        width: 11em;
-        height: 2.5em;
-        padding-left: 1em;
-        place-content: center;
-   
-        font-size: 13px;
-        cursor: pointer;
-        margin-top: 3em;
+    .article-text p {
+        height: 100%;
+      
     }
-    .article-text a{
-        color: darkgrey;
 
+    .article-text div {
+     
+        width: 100%;
+        height: 100%;
+        padding-left: 1em;
+
+        font-size: 13px;
+      
+    }
+
+    .article-text a {
+        color: darkgrey;
     }
 
 .about-container .about-bttn {
