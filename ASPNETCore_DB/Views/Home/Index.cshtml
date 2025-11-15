@@ -1,11 +1,11 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-<link rel="stylesheet" href="~/css/styles.css" />
+
+<link rel="stylesheet" href="~/styles/styles.css" />
 <link rel="stylesheet" href="fontawesome/css/all.css"/>
 
-<div class="container-fluid border-bottom mb-3">
-    <h1 id="header1">Welcome to the Central University of Technology</h1>
+
 
     <div class="home-container">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -53,10 +53,57 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+    <!----------------------------------------Stats----------------------------------------------------->
 
-        <div class="student-life">
-            <h3 class="stheader"> STUDENT LIFE ON CUT</h3>
-        </div>
+   <div class="stats-container">
+       <div class="stats">
+           <p class="figure">160K+</p>
+           <p class="figure-info">Over 160000 students enrolled <br/> across both our campuses</p>
+       </div>
+       <div class="stats">
+            <p class="figure">60K+</p>
+            <p class="figure-info">Over 60k students enrolled per year <br />educating more prospects with<br/> every year</p>
+       </div>
+       <div class="stats">
+            <p class="figure">80%</p>
+            <p class="figure-info">Over 80% of our students graduate<br />  within record time</p>
+       </div>
+       <div class="stats">
+            <p class="figure">20Y+</p>
+            <p class="figure-info">Over 20 years of empowering and <br />sharpening young minds</p>
+       </div>
+   </div>
+        <!----------------------------------------Student life----------------------------------------------------->
+  <div class="articles-section">
+      <h1>Featured articles & blogs</h1>
+      <div class="article-wrapper">
+
+      <div class="article-cont">
+          <img src="~/images/adone.JPG" />
+          <div class="article-text">
+              <p>Read about the sports we have to offer <br />on our campuses </p>
+              <div>    <a asp-controller="Student" asp-action="Sports">Read here</a></div>
+          </div>
+      </div>
+      <div class="article-cont">
+                <div class="article-image"></div>
+                <div class="article-text"></div>
+     </div>
+     <div class="article-cont">
+                <div class="article-image"></div>
+                <div class="article-text"></div>
+     </div>
+     <div class="article-cont">
+                <div class="article-image"></div>
+                <div class="article-text"></div>
+    </div>
+      </div>
+  </div>
+    <!----------------------------------------About----------------------------------------------------->
+    <div class="about-container"> 
+        <p class="about-bttn">ABOUT</p>
+
+    </div>
 
         <p class="text-para">
                  CUT offers high quality education and facilities. we're privilliged to have sharpened some of the most prestigous minds<br />
@@ -146,5 +193,5 @@
 
 
     <br />
-</div>
+
 
