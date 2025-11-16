@@ -81,88 +81,130 @@
       <div class="article-cont">
           <img src="~/images/adone.JPG" />
           <div class="article-text">
-              <p>Read about the sports we have to offer <br />on our campuses </p>
+              <p>Read about the sports we have to offer <br />on our campuses. </p>
               <div>    <a asp-controller="Student" asp-action="Sports">Read here</a></div>
           </div>
       </div>
       <div class="article-cont">
-                <div class="article-image"></div>
-                <div class="article-text"></div>
+                <img src="~/images/adtwo.JPG" />
+                <div class="article-text">
+                    <p>Home for those with ideas the IGym provides resources and knowledge for students with innovative minds.</p>
+                    <div>    <a asp-controller="Student" asp-action="IGym">Read here</a></div>
+                </div>
      </div>
      <div class="article-cont">
-                <div class="article-image"></div>
-                <div class="article-text"></div>
+                <img src="~/images/adthree.JPG" />
+                <div class="article-text">
+                    <p>Our state of the art library provides students<br/>with books, computers and other resources<br/>to assist them as they learn. </p>
+                    <div>    <a asp-controller="Student" asp-action="Library">Read here</a></div>
+                </div>
      </div>
      <div class="article-cont">
-                <div class="article-image"></div>
-                <div class="article-text"></div>
+                <img src="~/images/adfour.JPG" />
+                <div class="article-text">
+                    <p>At CUT we believe that a healthy mind should be accompanied by a healthy body thus the outdoor gym available and free to all our students.</p>
+                    <div>    <a asp-controller="Student" asp-action="Wellness">Read here</a></div>
+                </div>
     </div>
       </div>
   </div>
     <!----------------------------------------About----------------------------------------------------->
     <div class="about-container"> 
         <p class="about-bttn">ABOUT</p>
-
-    </div>
-
         <p class="text-para">
                  CUT offers high quality education and facilities. we're privilliged to have sharpened some of the most prestigous minds<br />
                 our institution offers a variety of courses for students to choose from. we also offer facilities and resources for <br />
                 extra curricular activities the likes of soccer, rugby, hockey and many more. we believe that a sharp mind needs a fit body to accompany it<br />
-                which is why we encourage our students to be involved in atleast one.<br /><br /><br />
+                which is why we encourage our students to be involved in atleast one.<br /><br />
                 Our institution also has facilities that promote & stimulate intellectual growth, our library which has high quality resources and the i-gym <br />
-            which caters to our students with dreams and big ideas.<br /><br />
-        </p>
-        <div class="f-icons">
-            <i class="fa-solid fa-school fa-4x"></i>
+            which caters to our students with dreams and big ideas.<br /><br /></p>
 
-            <i class="fa-solid fa-book fa-4x"></i>
-            <i class="fa-solid fa-trophy fa-4x"></i>
-        </div>
-        <div class="ads">
-            
-            <div>
-                <img src="~/images/adone.JPG" />
-                <a asp-controller="Student" asp-action="Sports">
-                    <h5>
-                    Sports
-                </h5></a>
-             </div>
-               
-            <div>
-                <img src="~/images/adtwo.JPG" />
-                  <a asp-controller="Student" asp-action="IGym">
-               <h5>
-                   i-Gym>
-               </h5></a>
-            </div>
+           <div class="excellence">
+               <img src="~/images/Graduate.jpg" class="image-section" />
+               <div class="text-section">
+                   <div class="points">
 
-            <div>
-                <img src="~/images/adthree.JPG" />
-                 <a asp-controller="Student" asp-action="Library">
-               <h5>
-                   Library
-               </h5></a>
-            </div>
+                    <h1>ACADEMIC SUCCESS</h1>
+                    <p>Our graduates have gone onto accomplish remarkable <br /> things even today they still find success across <br /> various fields.</p>
+                   </div>
+                <div class="points">
 
-            <div>
-                <img src="~/images/adfour.JPG" />
-                 <a asp-controller="Student" asp-action="Wellness">
-              <h5>
-                  Wellness
-              </h5></a>
-            </div>
-        </div>
-       <div class="about d-flex justify-content-around">
-           <div class="bkg-about">
-          <a asp-controller="Student" asp-action="About">    
-          <h5>About CUT</h5></a>
+                    <h1>STUDENT ORGANIZATIONS</h1>
+                    <p>There is a number of student organizations that ensure <br /> that student needs are met they work hand in hand <br />with management to ensure every student <br/>has a pleasant university experience.</p>
+                </div>
+                <div class="points">
+
+                    <h1>VIBRANT COMMUNITY</h1>
+                    <p>We take pride in the diversity of our students <br /> we do our best to represent every culture  <br /> with our campus events and resources so <br /> that every student feels at home.</p>
+                </div>
+               </div>
+           </div>
+    </div>
+    <!----------------------------------------Faculties----------------------------------------------------->
+   <div class="faculties-cont">
+
+       <h1>Our Faculties</h1>
+
+       <div class="faculties">
+
+           <div class="faculty-item">
+               <div class="emblem">
+                    <i class="fa-solid fa-people-group"></i>
+               </div>
+               <div class="faculty-title">
+                   <p>Faculty of Humanities</p>
+                   <div style="background-color: yellow;" class="faculty-cl"></div>
+               </div>
            </div>
 
+            <div class="faculty-item">
+                <div class="emblem">
+                    <i class="fa-solid fa-house-medical"></i>
+                </div>
+                <div class="faculty-title">
+                    <p>Faculty of Health and <br/>Environmental Sciences</p>
+                    <div style="background-color: green;" class="faculty-cl"></div>
+                </div>
+            </div>
+
+            <div class="faculty-item">
+                <div class="emblem">
+                  <i class="fa-solid fa-computer"></i>
+                </div>
+                <div class="faculty-title">
+                    <p>Faculty of Engineering, Built<br/>Environment & Information Technology</p>
+                    <div style="background-color: dodgerblue;" class="faculty-cl"></div>
+                </div>
+            </div>
+
+            <div class="faculty-item">
+                <div class="emblem">
+                    <i class="fa-solid fa-briefcase"></i>
+                </div>
+                <div class="faculty-title">
+                    <p>Faculty of Management Sciences</p>
+                   <div style="background-color: maroon;" class="faculty-cl"></div>
+                </div>
+            </div>
+
+            <div class="faculty-item">
+                <div class="emblem">
+                    <i class="fa-solid fa-book-open-reader"></i>
+                </div>
+                <div class="faculty-title">
+                    <p>Faculty of Teaching and Learning</p>
+                    <div style="background-color: orange;" class="faculty-cl"></div>
+                </div>
+            </div>
        </div>
 
-    </div>
-    <footer class="border-top">
+   </div>
+<!----------------------------------------FOOTER----------------------------------------------------->
+    <footer class="footer-section">
+        <div class="upper-footer">
+
+        </div>
+        <div class="lower-footer"></div>
         <div class="footer-items">
             <div>
 
@@ -189,9 +231,9 @@
 
     </footer>
 
+    </div>
 
 
 
-    <br />
 
 
