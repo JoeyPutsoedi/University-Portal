@@ -244,7 +244,7 @@
     height: 45em;
 }
 
-    .faculties-cont h1 {
+   .faculties-cont h1 {
         margin-bottom: 2em;
         text-align: center;
         font-weight: 500;
@@ -252,11 +252,13 @@
     }
 
 .faculties {
+
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 1.5em;
     width: 100%;
-    padding: 1em;
+    padding: 2em;
+
 }
 
     .faculties .faculty-item {
@@ -268,8 +270,13 @@
         display: grid;
         grid-auto-rows: 2fr 1fr;
         cursor: pointer;
+        transition: 0.5s ease;
     }
-
+.faculty-item:hover {
+    margin-top: -2em;
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
 .faculty-item .emblem {
     display: flex;
     justify-content: center;
