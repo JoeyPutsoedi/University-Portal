@@ -2,14 +2,9 @@
 
 Central University Of Technology Student Enrollment
 <h1>Description</h1>
-<p> An Enrollment management system for prospects looking to enroll at  <br/>
- The Central university of Technology Free-State. <br/><br/>
-This effective but easy to use system enables prospects to register and generates unique<br/>
- Student Numbers for each prospect. a User/Prospect can view applications from other users aswell as
-  <br/>edit their own information on the system.<br/>
- a User cannot delete their application nor can they delete another user's application.<br/><br/>
-On the admin side of things, the admin can view all applications, delete them but CANNOT edit the user/prospects'<br/>
- personal information.<br/><br/>
+<p> At its core, this project is a robust enrolment management system designed to handle large volumes of users and high traffic, making it an ideal solution for institutions that experience sudden surges in enrolment activity. While it is packaged as a student enrolment system, its underlying architecture is built to endure the stresses of high-demand scenarios, such as university registration periods or concert ticket sales.
+
+I chose to focus on a student enrolment system because it represents a real-world example of a high-pressure environment where system reliability is crucial. By designing a system that can scale to meet these demands, I've created a solution that can be applied to a variety of industries and use cases.<br/><br/>
 <strong>To Log in as admin: </strong><br/>
 Email: admin@gmail.com <br/>
 Password: Test!123<br/></p>
