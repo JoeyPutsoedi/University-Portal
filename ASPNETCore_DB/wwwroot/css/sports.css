@@ -1,0 +1,21 @@
+﻿.Sports-body {
+    padding: 10px;
+    margin: 10px;
+}
+
+.sports-columns {
+    padding: 40px;
+
+}
+
+
+
+.sports-left-title hr {
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #618aac;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
