@@ -8,7 +8,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"]</title>
+    <title>@ViewData["Title"] - ASPNETCore_DB</title>
 
     <link rel="stylesheet" href="~/styles/styles.css" />
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
@@ -33,7 +33,7 @@
                     <div class="navigation-items">
                     <a class="image-logo" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/images/cut-header-logo - Edited.png" width="100px" height="60px" /></a>
 
-                        <ul class="mainNav">
+                        <ul class="">
                             @if (!SignInManager.IsSignedIn(User) && !User.IsInRole("Admin") && !User.IsInRole("User"))
                             {
                               
@@ -68,9 +68,6 @@
 
                         </ul>
                             <partial name = "_LoginPartial" />
-                    <div class="menu-icon">
-                        <i class="fa-solid fa-bars" ></i>
-                    </div>
                 </div>
             </nav>
         </div>
