@@ -12,5 +12,6 @@
     <WebStackScaffolding_DbContextTypeFullName>ASPNETCore_DB.Data.SQLiteDBContext</WebStackScaffolding_DbContextTypeFullName>
     <_SelectedScaffolderID>IdentityScaffolder</_SelectedScaffolderID>
     <_SelectedScaffolderCategoryPath>root/Identity</_SelectedScaffolderCategoryPath>
+    <NameOfLastUsedPublishProfile>C:\Users\user\OneDrive\Documents\Visual Studio Code Projects\University-Portal\ASPNETCore_DB\Properties\PublishProfiles\University-enrollment - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

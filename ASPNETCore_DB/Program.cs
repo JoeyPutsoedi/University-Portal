@@ -7,10 +7,11 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<SQLiteDBContext>(options =>
-options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddDbContext<LoginDBContext>(options =>
-options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddDbContext<SQLiteDBContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 options.SignIn.RequireConfirmedAccount = false)
@@ -76,10 +77,26 @@ using (var scope = app.Services.CreateScope())
         await userManager.AddToRoleAsync(user, "Admin");
     }
 }
-
+// Auto-apply migrations on startup
 using (var scope = app.Services.CreateScope())
 {
-   
+    var services = scope.ServiceProvider;
+    try
+    {
+        var context1 = services.GetRequiredService<LoginDBContext>();
+        context1.Database.Migrate();
+
+        var context2 = services.GetRequiredService<SQLiteDBContext>();
+        context2.Database.Migrate();
+    }
+    catch (Exception ex)
+    {
+        var logger = services.GetRequiredService<ILogger<Program>>();
+        logger.LogError(ex, "Migration failed: " + ex.Message);
+        // Don't throw - let app continue
+    }
 }
+
+
 
 app.Run();
