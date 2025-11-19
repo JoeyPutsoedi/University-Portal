@@ -5,13 +5,17 @@
 }
 
 <header>
+<link rel="stylesheet" href="~/css/utils.css" />
+    <link rel="stylesheet" href="~/styles//responsiveness.css" />
     <h1>@ViewData["Title"]</h1>
     @{
         if (User.Identity?.IsAuthenticated ?? false)
         {
-            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
-                <button type="submit" class="nav-link btn btn-link text-dark">Click here to Logout</button>
+            <div style="width: 100vw;height:80vh; ">
+            <form style="margin-top: 3em; display:flex; justify-content: center;" class="logout-wrapper" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
+                <button style="background-color: dodgerblue; color: white; border: none; height: 2.8em; border-radius: .5em; width: 15em;"type="submit" >Click here to Logout</button>
             </form>
+</div>
         }
         else
         {
