@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\University-Portal\\ASPNETCore_DB\\ASPNETCore_DB.csproj": {}
+    "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\ASPNETCore_DB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\University-Portal\\ASPNETCore_DB\\ASPNETCore_DB.csproj": {
+    "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\ASPNETCore_DB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\University-Portal\\ASPNETCore_DB\\ASPNETCore_DB.csproj",
+        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\ASPNETCore_DB.csproj",
         "projectName": "ASPNETCore_DB",
-        "projectPath": "C:\\Users\\user\\Desktop\\University-Portal\\ASPNETCore_DB\\ASPNETCore_DB.csproj",
+        "projectPath": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\ASPNETCore_DB.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\University-Portal\\ASPNETCore_DB\\obj\\",
+        "outputPath": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

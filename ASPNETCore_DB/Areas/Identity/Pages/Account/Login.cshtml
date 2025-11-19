@@ -5,57 +5,54 @@
     ViewData["Title"] = "Log in";
 }
 <link rel="stylesheet" href="~/css/styles.css" />
-<link rel="stylesheet" href="~/css/login.css" />
+<link rel="stylesheet" href="~/css/utils.css" />
+<link rel="stylesheet" href="~/styles//responsiveness.css" />
+<link rel="stylesheet" href="fontawesome/css/all.css" />
 
 <h1>@ViewData["Title"]</h1>
-<div class="row d-flex justify-content-center">
-    <div class="col-md-4">
+
+<div class="login-container">
      
             <form id="account" method="post">
                 <h2>Use a local account to log in.</h2>
+
                 <hr />
                 <div asp-validation-summary="ModelOnly"></div>
                 <div class="form-floating">
                     <p class="label"> Email</p>
-                    <input asp-for="Input.Email" class="form-control bg-info" autocomplete="username" aria-required="true" />
-                    
-                    <span asp-validation-for="Input.Email" class="text-danger bg-none"></span>
+                    <input asp-for="Input.Email" class="" autocomplete="username" aria-required="true" />
+                    <span asp-validation-for="Input.Email" class=""></span>
                 </div>
+                    
+
                 <div class="form-floating">
                 <p class="label"> Password</p>
-                    <input asp-for="Input.Password" class="form-control bg-info" autocomplete="current-password" aria-required="true" />
-                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                    <input asp-for="Input.Password" class="" autocomplete="current-password" aria-required="true" />
+                    <span asp-validation-for="Input.Password" class=""></span>
                 </div>
-                <div>
+               
                     <div class="checkbox">
                         <label asp-for="Input.RememberMe" class="form-label">
                             <input class="form-check-input" asp-for="Input.RememberMe" />
                             @Html.DisplayNameFor(m => m.Input.RememberMe)
                         </label>
-                    </div>
+                    </div>             
+                 
+                <div class="button-wrapper">
+                    <button id="login-submit" type="submit" class="">Log in</button>
                 </div>
-                <div>
-                    <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-warning text-dark">Log in</button>
+
+                <div class="login-utils"> 
+                    <p><a id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a></p>
+                    <p><a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register as a new user</a></p>
+                    <p><a id="resend-confirmation" asp-page="./ResendEmailConfirmation">Resend email confirmation</a></p>
                 </div>
-                <div>
-                    <p>
-                        <a id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a>
-                    </p>
-                    <p>
-                        <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register as a new user</a>
-                    </p>
-                    <p>
-                        <a id="resend-confirmation" asp-page="./ResendEmailConfirmation">Resend email confirmation</a>
-                    </p>
-                </div>
+
             </form>
     </div>
     
-</div>
 
-<footer>
-    <img src="~/images/login-bottom-waves.png" width="100%" />
-</footer>
+
 
 
 
