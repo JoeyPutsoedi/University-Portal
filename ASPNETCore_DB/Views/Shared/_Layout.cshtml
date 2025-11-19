@@ -8,6 +8,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/styles//responsiveness.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.css" />
     <title>@ViewData["Title"]</title>
 
     <link rel="stylesheet" href="~/styles/styles.css" />
@@ -44,15 +46,16 @@
                                 <a class="" asp-area="" asp-controller="Student" asp-action="Contact">Contact</a>
                             </li>
                         }
-                        <li class="">
-                            <a class="" asp-area="" asp-controller="Home" asp-action="SeedDatabase">Database</a>
-                        </li>
+                       
                         <li class="">
                             <a asp-controller="Student" asp-action="About">About</a>
                         </li>
 
                         @if (SignInManager.IsSignedIn(User) && User.IsInRole("User"))
                         {
+                            <li class="nav-item">
+                                <a class="" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
                             <li class="">
                                 <a class="" asp-area="" asp-controller="Student" asp-action="Create">Enroll</a>
                             </li>
@@ -61,6 +64,9 @@
 
                         @if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin"))
                         {
+                            <li class="nav-item">
+                                <a class="" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
                             <li class="">
                                 <a class="" asp-area="" asp-controller="Student" asp-action="Index">Student</a>
                             </li>
@@ -96,3 +102,7 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+
+                      @*   <li class="">
+                            <a class="" asp-area="" asp-controller="Home" asp-action="SeedDatabase">Database</a>
+                        </li> *@

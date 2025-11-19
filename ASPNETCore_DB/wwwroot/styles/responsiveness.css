@@ -164,7 +164,7 @@
         .navigation-items .mainNav {
             position: absolute;
             top: 107%;
-            left: -3%;
+            left: -39%;
             z-index: 3000;
             background-color: dodgerblue;
             width: 101vw;
@@ -204,14 +204,15 @@
 
     /* Hamburger icon (add this to your HTML if not present) */
     .menu-icon {
+        z-index: 300;
         display: flex;
         cursor: pointer;
         font-size: 1.4em;
         color: black;
         padding: 0.5em;
-      
         place-self: center;
         transition: 0.5s ease;
+        opacity: 1;
     }
 
         .menu-icon.active {
@@ -224,23 +225,26 @@
     }
 
     .navigation-items .nav-util {
-      /*  border: 1px solid black;*/
+        /*  border: 1px solid black;*/
         width: 63%;
         padding: 0em;
         display: flex;
         margin: 0;
-            justify-content: end;
-            gap: 0.4em;
+        justify-content: end;
+        gap: 0.4em;
     }
 
-        .nav-util li {
-         /*   transform: scale(1);*/
-         border-radius: 0.5em;
-            width: 9em;
-            height: 3.5em;
-            font-size: 8px;
-        }
+    .nav-util .util-bttn {
+        /*   transform: scale(1);*/
+        border-radius: 0.5em;
+        width: 9em;
+        height: 3.5em;
+        font-size: 8px;
+    }
 
+    .nav-util #manage {
+        font-size: 10px;
+    }
 
     .carousel {
         margin-top: 6em;
@@ -367,7 +371,7 @@
         font-size: 11px;
     }
 
-   
+
     .footer-section {
         height: auto;
         min-height: 35em;
@@ -416,12 +420,14 @@
     .footer-column.active h2::after {
         transform: rotate(180deg);
     }
+
     .footer-column img {
         display: none;
         opacity: 0;
         justify-self: center;
         transition: transform 0.3s ease;
     }
+
     .footer-column.active img {
         display: flex;
         opacity: 1;
@@ -514,11 +520,16 @@
         width: 13em;
     }
 
+    .navigation-items .mainNav {
+        left: -26%;
+    }
+
+
     .navigation-items .nav-util {
         /*  border: 1px solid black;*/
         width: 60%;
-   
     }
+
     .carousel-item img {
         height: 18em;
     }
