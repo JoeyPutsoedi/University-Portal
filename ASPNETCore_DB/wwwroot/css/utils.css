@@ -113,7 +113,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1em;
-    margin-top: -1em;
+  
     padding: 0.8em;
 }
 
@@ -257,4 +257,62 @@
     .form-floating #email-verification{
         margin-top: -1em;
         margin-bottom: 1em;
+    }
+
+/*------------------------------------------------CSS for create-------------------------------------------------*/
+.enroll-container {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding: 1em;
+}
+
+.enroll-container form {
+    margin-top: 5em;
+    /*    border: 1px solid dodgerblue;*/
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+}
+
+    .enroll-container h1 {
+        color: black;
+        text-align: center;
+    }
+    .enroll-container .student{
+        text-align: center;
+    }
+
+    .enroll-container .button-wrapper {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+        width: 90%;
+    }
+    
+    .enroll-container .button-wrapper button {
+    width: 100%;
+    height: 2.8em;
+    border-radius: .5em;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+}
+    .enroll-container .image-input {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+        width: 90%;
+    }
+
+    .enroll-container .image-placeholder {
+        display: block;
+        width: 90%;
+  padding-left: 0.7em;
+        margin-left: auto;
+        margin-right: auto;
     }

@@ -5,93 +5,99 @@
 }
 <link rel="stylesheet" href="~/css/styles.css" />
 <link rel="stylesheet" href="~/css/list.css" />
-<h1>Index</h1>
+<link rel="stylesheet" href="~/styles/responsiveness.css" />
+<link rel="stylesheet" href="~/styles/studentResponsive.css" />
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+<div class="dashboard-container">
 
-<form asp-action="Index" method="get">
-    <div class="form-actions no-color">
-        <p>
-            Find by Student Number: <input class="bg-info text-dark" type="text" name="SearchString" value="@ViewData["CurrentFilter"]" />
-            <input id="input-search" type="submit" value="Search" class="btn btn-default" /> |
-            <a asp-action="Index">Back to Full List</a>
-        </p>
-    </div>
-</form>
+    <h1>Index</h1>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                <a asp-action="Index" asp-route-sortOrder="@ViewData["StudentNumberSortParm"]"
-                   asp-route-currentFilter="@ViewData["CurrentFilter"]">Student Number</a>
-            </th>
-            <th>
-                First Name
-            </th>
-            <th>
-                <a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParm"]"
-                   asp-route-currentFilter="@ViewData["CurrentFilter"]">Surname</a>
-            </th>
-            <th>
-                <a asp-action="Index" asp-route-sortOrder="@ViewData["DateSortParm"]"
-                   asp-route-currentFilter="@ViewData["CurrentFilter"]">Enrollment Date</a>
-            </th>
-            <th>
-                Photo
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
+    <p class="create-bttn">
+        <a asp-action="Create">Create New</a>
+    </p>
+
+    <form asp-action="Index" method="get">
+        <div class="form-actions">
+            <p>
+                Find by Student Number: <input class="search-bar" type="text" name="SearchString" value="@ViewData["CurrentFilter"]" />
+                <input id="input-search" type="submit" value="Search" class="" /> |
+                <a asp-action="Index">Back to Full List</a>
+            </p>
+        </div>
+    </form>
+
+    <table class="table">
+        <thead>
             <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.StudentNumber)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.FirstName)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Surname)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.EnrollmentDate)
-                </td>
-                @*Displaying image*@
-                <td width="25%">
-                    <img src="@WebConstants.ImagePath@item.Photo" width="100" style="border-radius:5px; border: 1px solid white" />
-                </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.StudentNumber">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.StudentNumber">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.StudentNumber">Delete</a>
-                </td>
+                <th>
+                    <a asp-action="Index" asp-route-sortOrder="@ViewData["StudentNumberSortParm"]"
+                       asp-route-currentFilter="@ViewData["CurrentFilter"]">Student Number</a>
+                </th>
+                <th>
+                    First Name
+                </th>
+                <th>
+                    <a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParm"]"
+                       asp-route-currentFilter="@ViewData["CurrentFilter"]">Surname</a>
+                </th>
+                <th>
+                    <a asp-action="Index" asp-route-sortOrder="@ViewData["DateSortParm"]"
+                       asp-route-currentFilter="@ViewData["CurrentFilter"]">Enrollment Date</a>
+                </th>
+                <th>
+                    Photo
+                </th>
+                <th>Actions</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td data-label="Student Number">
+                        @Html.DisplayFor(modelItem => item.StudentNumber)
+                    </td>
+                    <td data-label="First Name">
+                        @Html.DisplayFor(modelItem => item.FirstName)
+                    </td>
+                    <td data-label="Surname">
+                        @Html.DisplayFor(modelItem => item.Surname)
+                    </td>
+                    <td data-label="Enrollment Date">
+                        @Html.DisplayFor(modelItem => item.EnrollmentDate)
+                    </td>
+                    @*Displaying image*@
+                    <td data-label="Photo" width="25%">
+                        <img src="@WebConstants.ImagePath@item.Photo" width="100" style="border-radius:5px; border: 1px solid white" />
+                    </td>
+                    <td class="dashboard-actions" data-label="Actions">
+                        <a style="border: 1px solid black; color: black; " asp-action="Edit" asp-route-id="@item.StudentNumber">Edit</a>
+                        <a style="background-color: dodgerblue" asp-action="Details" asp-route-id="@item.StudentNumber">Details</a>
+                        <a style="background-color: rgb(235, 15, 49)" asp-action="Delete" asp-route-id="@item.StudentNumber">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 
 
-@{
-    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
-    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
-}
+    @{
+        var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+        var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+    }
 
-<a asp-action="Index"
-   asp-route-sortOrder="@ViewData[" CurrentSort"]"
-   asp-route-pageNumber="@(Model.PageIndex - 1)"
-   asp-route-currentFilter="@ViewData[" CurrentFilter"]"
-   class="btn btn-default bg-warning @prevDisabled">
-    Previous
-</a>
-<a asp-action="Index"
-   asp-route-sortOrder="@ViewData[" CurrentSort"]"
-   asp-route-pageNumber="@(Model.PageIndex + 1)"
-   asp-route-currentFilter="@ViewData[" CurrentFilter"]"
-   class="btn btn-default  bg-warning @nextDisabled">
-    Next
-</a>
+    <a asp-action="Index"
+       asp-route-sortOrder="@ViewData["CurrentSort"]"
+       asp-route-pageNumber="@(Model.PageIndex - 1)"
+       asp-route-currentFilter="@ViewData["CurrentFilter"]"
+       class="btn navigation-bttn @prevDisabled">
+        Previous
+    </a>
+    <a asp-action="Index"
+       asp-route-sortOrder="@ViewData["CurrentSort"]"
+       asp-route-pageNumber="@(Model.PageIndex + 1)"
+       asp-route-currentFilter="@ViewData["CurrentFilter"]"
+       class="btn navigation-bttn @nextDisabled">
+        Next
+    </a>
+</div>

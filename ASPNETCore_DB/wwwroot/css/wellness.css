@@ -3,13 +3,14 @@
     margin: 10px;
 }
 
-.sports-columns {
+.wellness-columns {
     padding: 40px;
+    margin-top: 1.3em;
 }
 
 
 
-.sports-left-title hr {
+.wellness-left-title hr {
     border: none;
     width: 120px;
     height: 5px;
