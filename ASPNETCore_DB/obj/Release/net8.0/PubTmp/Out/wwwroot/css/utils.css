@@ -1,0 +1,318 @@
+/*------------------------------------------------CSS for Register-------------------------------------------------*/
+
+.register-wrapper {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+    .register-wrapper img {
+        position: absolute;
+        width: 100%;
+        height: 19em;
+        object-fit: cover;
+    }
+
+.register-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding: 1em;
+}
+
+    .register-container form {
+        margin-top: 1em;
+        /*    border: 1px solid dodgerblue;*/
+        width: 30em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .register-container h2 {
+        text-align: center;
+    }
+
+    .register-container input {
+        display: block;
+        width: 90%;
+        height: 2.8em;
+        border: 1px solid lightgrey;
+        background-color: rgb(226, 243, 247);
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1em;
+        padding: 0.8em;
+    }
+
+    .register-container .label {
+        /*  border: 1px solid dodgerblue;*/
+        text-align: center;
+        margin-bottom: 0em;
+    }
+
+.form-floating {
+    /*    display: block;
+    width: 100%;
+    height: 4em;*/
+    text-align: center;
+}
+
+    .form-floating span {
+        color: red;
+        margin-bottom: 1em;
+    }
+
+.register-container .button-wrapper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    width: 90%;
+}
+
+.register-container .button-wrapper button {
+    width: 100%;
+    height: 2.8em;
+    border-radius: .5em;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+}
+/*------------------------------------------------CSS for Login-------------------------------------------------*/
+
+
+.login-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding: 1em;
+}
+
+    .login-container form {
+        margin-top: 1em;
+        /*    border: 1px solid dodgerblue;*/
+        width: 30em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login-container h2 {
+        text-align: center;
+    }
+
+.form-floating input {
+    display: block;
+    width: 90%;
+    height: 2.8em;
+    border: 1px solid lightgrey;
+    background-color: rgb(226, 243, 247);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+  
+    padding: 0.8em;
+}
+
+.login-container .label {
+    /*  border: 1px solid dodgerblue;*/
+    text-align: center;
+    margin-bottom: 0em;
+}
+
+.form-floating {
+    /*    display: block;
+    width: 100%;
+    height: 4em;*/
+    text-align: center;
+}
+
+    .form-floating span {
+        color: red;
+        margin-bottom: 1em;
+    }
+
+.login-container .checkbox {
+    display: flex;
+    gap: 1em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.checkbox input {
+    border: 1px solid lightgrey;
+    background-color: rgb(226, 243, 247);
+}
+
+.login-container .button-wrapper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    width: 90%;
+}
+
+.login-container .button-wrapper button {
+    width: 100%;
+    height: 2.8em;
+    border-radius: .5em;
+    background-color: yellow;
+    color: black;
+    border: none;
+}
+
+.login-container .login-utils {
+    margin-top: 1.35em;
+    font-size: 14px;
+    text-align: center;
+}
+/*------------------------------------------------CSS for Identity-------------------------------------------------*/
+.identity-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding: 1em;
+}
+.identity-container form {
+    margin-top: 1em;
+    /*    border: 1px solid dodgerblue;*/
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+}
+
+.identity-container h2 {
+    text-align: center;
+}
+.identity-container .button-wrapper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    width: 90%;
+}
+
+    .identity-container .button-wrapper button {
+        width: 100%;
+        height: 2.8em;
+        border-radius: .5em;
+        background-color: dodgerblue;
+        color: white;
+        border: none;
+    }
+/*------------------------------------------------CSS for Logout-------------------------------------------------*/
+.Logout-wrapper{
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+/*------------------------------------------------CSS for profile-------------------------------------------------*/
+.profile-container{
+    margin-top: 1em;
+    padding: 0em 1em;
+}
+.profile-container h2{
+    text-align:center;
+}
+.profile-container hr{
+
+    margin-left:auto;
+    margin-right: auto;
+}
+.profile-body{
+    padding: 0em 0.5em;
+    height: 31vw;
+
+    display: flex;
+    justify-content: center;
+}
+.profile-body form {
+
+    /*    border: 1px solid dodgerblue;*/
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+}
+.profile-body .button-wrapper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 90%;
+}
+
+    .profile-body .button-wrapper button {
+        width: 100%;
+        height: 2.8em;
+        border-radius: .5em;
+        background-color: dodgerblue;
+        color: white;
+        border: none;
+    }
+    .form-floating #email-verification{
+        margin-top: -1em;
+        margin-bottom: 1em;
+    }
+
+/*------------------------------------------------CSS for create-------------------------------------------------*/
+.enroll-container {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding: 1em;
+}
+
+.enroll-container form {
+    margin-top: 5em;
+    /*    border: 1px solid dodgerblue;*/
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+}
+
+    .enroll-container h1 {
+        color: black;
+        text-align: center;
+    }
+    .enroll-container .student{
+        text-align: center;
+    }
+
+    .enroll-container .button-wrapper {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+        width: 90%;
+    }
+    
+    .enroll-container .button-wrapper button {
+    width: 100%;
+    height: 2.8em;
+    border-radius: .5em;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+}
+    .enroll-container .image-input {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+        width: 90%;
+    }
+
+    .enroll-container .image-placeholder {
+        display: block;
+        width: 90%;
+  padding-left: 0.7em;
+        margin-left: auto;
+        margin-right: auto;
+    }
