@@ -3,48 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\wwwroot\\css\\utils.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:wwwroot\\css\\utils.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\areas\\identity\\pages\\account\\manage\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\wwwroot\\styles\\responsiveness.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:wwwroot\\styles\\responsiveness.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\wwwroot\\styles\\studentresponsive.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:wwwroot\\styles\\studentresponsive.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\wwwroot\\styles\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:wwwroot\\styles\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\areas\\identity\\pages\\account\\manage\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\wwwroot\\css\\contact.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:wwwroot\\css\\contact.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\views\\student\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:views\\student\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\wwwroot\\css\\utils.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:wwwroot\\css\\utils.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,152 +46,130 @@
       "DocumentGroups": [
         {
           "DockedWidth": 233,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ForgotPassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-19T09:01:28.735Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Email.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-19T16:14:59.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "utils.css",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\wwwroot\\css\\utils.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\utils.css",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\wwwroot\\css\\utils.css",
-              "RelativeToolTip": "wwwroot\\css\\utils.css",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAAHMAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-18T15:04:17.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Logout.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-19T09:35:18.055Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-19T09:29:55.318Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-18T14:53:17.884Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 188,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "responsiveness.css",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\wwwroot\\styles\\responsiveness.css",
-              "RelativeDocumentMoniker": "wwwroot\\styles\\responsiveness.css",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\wwwroot\\styles\\responsiveness.css",
-              "RelativeToolTip": "wwwroot\\styles\\responsiveness.css",
-              "ViewState": "AQIAANQAAAAAAAAAAAAAAPAAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-19T11:27:12.142Z",
-              "IsPinned": true
-            },
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Views\\Student\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Views\\Student\\Contact.cshtml",
+              "RelativeToolTip": "Views\\Student\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T05:31:39.178Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-19T11:49:51.551Z",
-              "IsPinned": true,
+              "DocumentIndex": 3,
+              "Title": "studentResponsive.css",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\wwwroot\\styles\\studentResponsive.css",
+              "RelativeDocumentMoniker": "wwwroot\\styles\\studentResponsive.css",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\wwwroot\\styles\\studentResponsive.css",
+              "RelativeToolTip": "wwwroot\\styles\\studentResponsive.css",
+              "ViewState": "AQIAALMAAAAAAAAAAAAAALsBAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-20T06:24:51.872Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAHAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-19T11:38:29.079Z"
+              "WhenOpened": "2025-11-20T06:21:11.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ManageNav.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T06:21:08.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Email.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T06:20:41.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T06:20:01.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-19T19:03:47.814Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-19T11:38:22.792Z"
+              "Title": "contact.css",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\wwwroot\\css\\contact.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\contact.css",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\wwwroot\\css\\contact.css",
+              "RelativeToolTip": "wwwroot\\css\\contact.css",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAAD8AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-20T06:01:23.826Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "styles.css",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\wwwroot\\styles\\styles.css",
-              "RelativeDocumentMoniker": "wwwroot\\styles\\styles.css",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\wwwroot\\styles\\styles.css",
-              "RelativeToolTip": "wwwroot\\styles\\styles.css",
-              "ViewState": "AQIAACkAAAAAAAAAAAAAAEsAAAAAAAAA",
+              "Title": "utils.css",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\wwwroot\\css\\utils.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\utils.css",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\wwwroot\\css\\utils.css",
+              "RelativeToolTip": "wwwroot\\css\\utils.css",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAQwKsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-18T17:55:33.794Z"
+              "WhenOpened": "2025-11-19T19:01:48.825Z",
+              "EditorCaption": ""
             }
           ]
         }

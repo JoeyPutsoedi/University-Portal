@@ -1,14 +1,66 @@
 ﻿/*<!-------------List CSS---------------->*/
-tr a {
-    color: white;
+.dashboard-container {
+    margin-top: 2.9em;
+    padding: 1.6em;
 }
 
-p a {
-    color: white;
+    .dashboard-container .create-bttn {
+        width: 7em;
+        border: 1px solid dodgerblue;
+        padding: 0.3em 0.5em;
+        border-radius: 0.5em;
+        background-color: dodgerblue;
+    }
+    .create-bttn a{
+        color: white;
+        text-decoration: none;
+    }
+.create-bttn a:hover {
+    color: darkblue;
+
 }
 
+.dashboard-container .search-bar{
+    padding-left: 0.3em;
+}
 
+.dashboard-container #input-search{
+    border: 1px solid black;
+    padding: 0em 0.4em;
+    border-radius: 0.3em;
+}
 
-#input-search {
+.dashboard-container .table a{
+    text-decoration: none;
+    color: rgb(62, 62, 62);
+}
+.dashboard-container .table th {
+    text-decoration: none;
+    color: rgb(62, 62, 62);
+}
+
+.dashboard-container tbody tr{
+    height: 8em;
+}
+.dashboard-container  tr td {
+    place-content: center;
+}
+.dashboard-container .dashboard-actions{
+
+  place-content: center;
+}
+.dashboard-container .dashboard-actions a{
+
+    width: 8em;
+    padding:0.5em 2em;
+    border-radius: 0.4em;
+    color: white;
+  
+}
+
+.navigation-bttn{
+    border: 1px solid black;
+    width: 9em;
+    background-color: dodgerblue;
     color: white;
 }

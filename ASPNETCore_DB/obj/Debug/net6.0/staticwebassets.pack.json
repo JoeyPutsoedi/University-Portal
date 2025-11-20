@@ -8689,8 +8689,20 @@
       "PackagePath": "staticwebassets\\images\\4fef2019-d738-48dc-8b6b-1f8448319f6b.png"
     },
     {
+      "Id": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\wwwroot\\images\\528fc2d5-58b9-4dde-bb7c-fc34e5fe9f9b.jpeg",
+      "PackagePath": "staticwebassets\\images\\528fc2d5-58b9-4dde-bb7c-fc34e5fe9f9b.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\wwwroot\\images\\86c35766-423b-471f-b093-572dceaf50ed.jpg",
+      "PackagePath": "staticwebassets\\images\\86c35766-423b-471f-b093-572dceaf50ed.jpg"
+    },
+    {
       "Id": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\wwwroot\\images\\Central-University-of-Technology-CUT-image-2.jpg",
       "PackagePath": "staticwebassets\\images\\Central-University-of-Technology-CUT-image-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\wwwroot\\images\\DefaultPic.png",
+      "PackagePath": "staticwebassets\\images\\DefaultPic.png"
     },
     {
       "Id": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\wwwroot\\images\\Graduate.jpg",
@@ -9003,6 +9015,10 @@
     {
       "Id": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\wwwroot\\styles\\responsiveness.css",
       "PackagePath": "staticwebassets\\styles\\responsiveness.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\wwwroot\\styles\\studentResponsive.css",
+      "PackagePath": "staticwebassets\\styles\\studentResponsive.css"
     },
     {
       "Id": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\wwwroot\\styles\\styles.css",

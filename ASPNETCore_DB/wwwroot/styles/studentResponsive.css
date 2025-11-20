@@ -1,0 +1,349 @@
+﻿/* ============================================
+   RESPONSIVE STYLES FOR STUDENT DASHBOARD
+   ============================================ */
+
+/* Tablet View (768px - 1024px) */
+@media (max-width: 1024px) {
+    .dashboard-container {
+        padding: 1.2em;
+    }
+
+        .dashboard-container .table {
+            font-size: 0.9rem;
+        }
+
+        .dashboard-container tbody tr {
+            height: 7em;
+        }
+
+    .dashboard-actions a {
+        padding: 0.4em 1.5em;
+        font-size: 0.9rem;
+    }
+}
+
+/* Mobile View (Up to 768px) */
+@media (max-width: 768px) {
+    .dashboard-container {
+        margin-top: 2em;
+        padding: 1em;
+    }
+
+        .dashboard-container h1 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+    /* Search Form */
+    .form-actions p {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        align-items: stretch;
+    }
+
+    .dashboard-container .search-bar {
+        width: 100%;
+        padding: 0.5em;
+        font-size: 1rem;
+    }
+
+    .dashboard-container #input-search {
+        width: 100%;
+        padding: 0.5em;
+        font-size: 1rem;
+    }
+
+    /* Hide thead on mobile */
+    .dashboard-container .table thead {
+        display: none;
+    }
+
+    /* Keep table display but modify structure */
+    .dashboard-container .table {
+        display: block;
+        border: none;
+    }
+
+        .dashboard-container .table tbody {
+            display: block;
+        }
+
+    .dashboard-container tbody tr {
+        display: block;
+        margin-bottom: 1.5em;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        padding: 1em;
+        background: white;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        height: auto;
+    }
+
+    .dashboard-container tbody td {
+        display: block;
+        text-align: left;
+        padding: 0.8em 0;
+        border: none;
+        position: relative;
+        padding-left: 150px;
+        min-height: 2em;
+    }
+
+        /* Add labels before each data field */
+        .dashboard-container tbody td::before {
+            content: attr(data-label);
+            font-weight: bold;
+            color: #666;
+            position: absolute;
+            left: 0;
+            width: 140px;
+            padding-right: 10px;
+            text-align: left;
+        }
+
+        /* Photo styling in card */
+        .dashboard-container tbody td[data-label="Photo"] {
+            text-align: center;
+            padding: 1em 0;
+            padding-left: 0;
+        }
+
+            .dashboard-container tbody td[data-label="Photo"]::before {
+                display: block;
+                position: static;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 0.5em;
+            }
+
+            .dashboard-container tbody td[data-label="Photo"] img {
+                width: 80px;
+                height: 80px;
+                object-fit: cover;
+            }
+
+    /* Actions in card layout */
+    .dashboard-container .dashboard-actions {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        padding: 1em 0 0.5em 0;
+        padding-left: 0;
+    }
+
+        .dashboard-container .dashboard-actions::before {
+            display: block;
+            position: static;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 0.5em;
+        }
+
+        .dashboard-container .dashboard-actions a {
+            width: 100%;
+            text-align: center;
+            padding: 0.7em 1em;
+            display: block;
+        }
+
+    /* Navigation buttons */
+    .navigation-bttn {
+        width: 48%;
+        display: inline-block;
+        text-align: center;
+        padding: 0.7em 0.5em;
+        margin: 0.5em 1% 0.5em 0;
+        font-size: 0.9rem;
+    }
+
+        .navigation-bttn:last-child {
+            margin-right: 0;
+        }
+}
+
+/* Small Mobile (Up to 480px) */
+@media (max-width: 480px) {
+    .dashboard-container {
+        padding: 0.8em;
+    }
+
+        .dashboard-container h1 {
+            font-size: 1.3rem;
+        }
+
+        .dashboard-container .create-bttn {
+            width: 100%;
+            text-align: center;
+        }
+
+        .dashboard-container tbody tr {
+            padding: 0.8em;
+        }
+
+        .dashboard-container tbody td {
+            padding-left: 0;
+        }
+
+            .dashboard-container tbody td::before {
+                display: block;
+                position: static;
+                margin-bottom: 0.3em;
+                width: 100%;
+            }
+
+    .dashboard-actions a {
+        font-size: 0.9rem;
+    }
+
+    .navigation-bttn {
+        width: 100%;
+        margin: 0.3em 0;
+        display: block;
+    }
+}
+
+/* ============================================
+   RESPONSIVE STYLES FOR PROFILE/SETTINGS PAGE
+   ============================================ */
+
+/* Tablet View (768px - 1024px) - Profile */
+@media (max-width: 1024px) {
+    .profile-container {
+        padding: 0 1.5rem;
+    }
+
+    .profile-container h2{
+        margin-top:2em;
+    }
+        .profile-container .row {
+            gap: 1.5rem;
+        }
+}
+
+/* Mobile View (Up to 768px) - Profile */
+@media (max-width: 768px) {
+    .profile-container {
+        margin-top: 1rem;
+        padding: 0 1rem;
+    }
+
+        .profile-container h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .profile-container .row {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+            /* Convert sidebar to vertical stacked menu */
+            .profile-container .row .col-md-3 {
+                width: 100%;
+                background: white;
+                border-bottom: 1px solid #e0e0e0;
+            }
+
+        .profile-container .nav-pills {
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+            .profile-container .nav-pills .nav-item {
+                margin: 0;
+                border-bottom: 1px solid #f0f0f0;
+            }
+
+                .profile-container .nav-pills .nav-item:last-child {
+                    border-bottom: none;
+                }
+
+            .profile-container .nav-pills .nav-link {
+                display: block;
+                padding: 1rem;
+                color: #333;
+                text-decoration: none;
+                border-left: none;
+                text-align: center;
+                transition: all 0.3s;
+            }
+
+                .profile-container .nav-pills .nav-link:hover {
+                    background: #e9ecef;
+                }
+
+                .profile-container .nav-pills .nav-link.active {
+                    background: #4A90E2;
+                    color: white;
+                    border-left: none;
+                }
+
+        /* Content area adjustments */
+        .profile-container .row .col-md-9 {
+            width: 100%;
+            padding: 1.5rem 1rem;
+        }
+
+        .profile-container .col-md-9 h3 {
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+        }
+
+    .profile-body {
+        height: auto;
+        padding: 0;
+    }
+
+        .profile-body form {
+            width: 100%;
+        }
+
+        .profile-body .form-control {
+            font-size: 16px; /* Prevents zoom on iOS */
+        }
+
+        .profile-body .button-wrapper {
+            width: 100%;
+        }
+}
+
+/* Small Mobile (Up to 480px) - Profile */
+@media (max-width: 480px) {
+    .profile-container h2 {
+        font-size: 1.3rem;
+    }
+
+    .profile-container .col-md-9 h3 {
+        font-size: 1.2rem;
+    }
+
+    .profile-container .nav-pills .nav-link {
+        padding: 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    .profile-container .row .col-md-9 {
+        padding: 1rem;
+    }
+
+    .profile-body form {
+        margin-top: 0;
+    }
+
+    .profile-body .form-floating {
+        margin-bottom: 1rem;
+    }
+
+    .profile-body .button-wrapper button {
+        padding: 0.8rem;
+    }
+}
