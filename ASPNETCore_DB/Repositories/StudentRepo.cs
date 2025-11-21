@@ -16,6 +16,24 @@ namespace ASPNETCore_DB.Repositories
 
         public Student Create(Student student)
         {
+            // Convert EnrollmentDate to UTC before saving to PostgreSQL
+            if (student.EnrollmentDate.Kind == DateTimeKind.Unspecified)
+            {
+                student.EnrollmentDate = DateTime.SpecifyKind(student.EnrollmentDate, DateTimeKind.Utc);
+            }
+            else if (student.EnrollmentDate.Kind == DateTimeKind.Local)
+            {
+                student.EnrollmentDate = student.EnrollmentDate.ToUniversalTime();
+            }  // Convert EnrollmentDate to UTC before saving to PostgreSQL
+            if (student.EnrollmentDate.Kind == DateTimeKind.Unspecified)
+            {
+                student.EnrollmentDate = DateTime.SpecifyKind(student.EnrollmentDate, DateTimeKind.Utc);
+            }
+            else if (student.EnrollmentDate.Kind == DateTimeKind.Local)
+            {
+                student.EnrollmentDate = student.EnrollmentDate.ToUniversalTime();
+            }
+
             _context.Add(student);
             _context.SaveChanges();
             return student;
@@ -37,6 +55,17 @@ namespace ASPNETCore_DB.Repositories
         public Student Edit(Student student)
 
         {
+            // Convert EnrollmentDate to UTC before saving to PostgreSQL
+            if (student.EnrollmentDate.Kind == DateTimeKind.Unspecified)
+            {
+                student.EnrollmentDate = DateTime.SpecifyKind(student.EnrollmentDate, DateTimeKind.Utc);
+            }
+            else if (student.EnrollmentDate.Kind == DateTimeKind.Local)
+            {
+                student.EnrollmentDate = student.EnrollmentDate.ToUniversalTime();
+            }
+
+
             _context.Update(student);
             _context.SaveChanges();
             return student;

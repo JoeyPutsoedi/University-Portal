@@ -1,1 +1,3 @@
 *.vsidx
+/ASPNETCore_DB/ASPNETCore_DB.csproj
+/ASPNETCore_DB/appsettings.json

@@ -1,0 +1,552 @@
+﻿/* ====================================== RESPONSIVE MEDIA QUERIES ====================================== */
+
+/* Tablets and smaller laptops (1024px and below) */
+@media (max-width: 1024px) {
+    .carousel-item img {
+        height: 35em;
+    }
+
+    .stats-container .stats {
+        width: 50%;
+    }
+
+    .articles-section h1 {
+        font-size: 2.2em;
+    }
+
+    .excellence .image-section {
+        width: 100%;
+    }
+
+    .excellence .text-section {
+        width: 100%;
+        border-left: 1px solid grey;
+    }
+
+    .faculties-cont h1 {
+        font-size: 2.2em;
+    }
+
+    .faculties {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+}
+
+/* Tablets portrait (768px and below) */
+@media (max-width: 768px) {
+    .navigation-shared {
+        height: auto;
+        min-height: 4em;
+        padding: 0.5em;
+    }
+
+    .navigation-items {
+        flex-wrap: wrap;
+        height: auto;
+        gap: 1em;
+    }
+
+        .navigation-items ul {
+            gap: 1em;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .navigation-items .image-logo {
+            transform: scale(0.6);
+        }
+
+    .carousel {
+        margin-top: 5em;
+    }
+
+    .carousel-item img {
+        height: 28em;
+    }
+
+    .stats-container .stats {
+        width: 50%;
+        height: 14em;
+    }
+
+    .stats .figure {
+        font-size: 2.5em;
+    }
+
+    .stats .figure-info {
+        font-size: 14px;
+    }
+
+    .articles-section h1 {
+        font-size: 1.8em;
+        margin-block: 2em;
+    }
+
+    .article-wrapper {
+        padding: 0 1em;
+    }
+
+    .article-cont {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .about-container .about-bttn {
+        margin: 4em auto 2em auto;
+    }
+
+    .about-container .text-para {
+        font-size: 14px;
+    }
+
+    .about-container .excellence {
+        margin-top: 4em;
+    }
+
+    .excellence h1 {
+        font-size: 1.4em;
+    }
+
+    .excellence p {
+        font-size: 0.9em;
+    }
+
+    .faculties-cont {
+        margin-top: 5em;
+    }
+
+        .faculties-cont h1 {
+            font-size: 1.8em;
+        }
+
+    .faculties {
+        padding: 1em;
+        gap: 1em;
+    }
+
+    .faculty-item:hover {
+        margin-top: -1em;
+    }
+
+    .footer-section {
+        padding: 1em;
+    }
+
+    .footer-column h2 {
+        font-size: 1.4em;
+    }
+
+    .lower-footer {
+        justify-content: center;
+        text-align: center;
+    }
+
+        .lower-footer .trademarks {
+            width: 100%;
+        }
+}
+
+/* Mobile devices (480px and below) */
+@media (max-width: 480px) {
+
+    .navigation-shared {
+        /*   padding: 0.3em;*/
+        overflow: visible;
+    }
+
+    .navigation-items {
+        gap: 0.5em;
+        position: relative;
+        overflow: visible;
+    }
+
+        /* Mobile Hamburger Menu */
+        .navigation-items .mainNav {
+            position: absolute;
+            top: 107%;
+            left: -39%;
+            z-index: 3000;
+            background-color: dodgerblue;
+            width: 101vw;
+            padding: 1em;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            display: none;
+            flex-direction: column;
+            gap: 1em;
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+
+
+            .navigation-items .mainNav.active {
+                display: flex;
+                opacity: 1;
+            }
+
+            /* Menu items styling */
+            .navigation-items .mainNav li {
+                width: 100%;
+                overflow: hidden;
+                text-align: center;
+                padding: 0.5em;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            }
+
+                .navigation-items .mainNav li:last-child {
+                    border-bottom: none;
+                }
+
+                .navigation-items .mainNav li a {
+                    color: white;
+                    display: block;
+                    width: 100%;
+                }
+
+    /* Hamburger icon (add this to your HTML if not present) */
+    .menu-icon {
+        z-index: 300;
+        display: flex;
+        cursor: pointer;
+        font-size: 1.4em;
+        color: black;
+        padding: 0.5em;
+        place-self: center;
+        transition: 0.5s ease;
+        opacity: 1;
+    }
+
+        .menu-icon.active {
+            transform: rotate(90deg);
+        }
+
+    .navigation-items .image-logo img {
+        width: 80px !important;
+        height: 50px !important;
+    }
+
+    .navigation-items .nav-util {
+        /*  border: 1px solid black;*/
+        width: 63%;
+        padding: 0em;
+        display: flex;
+        margin: 0;
+        justify-content: end;
+        gap: 0.4em;
+    }
+
+    .nav-util .util-bttn {
+        /*   transform: scale(1);*/
+        border-radius: 0.5em;
+        width: 9em;
+        height: 3.5em;
+        font-size: 8px;
+    }
+
+    .nav-util #manage {
+        font-size: 10px;
+    }
+
+    .carousel {
+        margin-top: 6em;
+    }
+
+    .carousel-inner {
+        transform: scale(1);
+        border-radius: 0.3em;
+    }
+
+    .carousel-item img {
+        height: 20em;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1em;
+    }
+
+    .carousel-caption p {
+        font-size: 0.8em;
+        display: none;
+    }
+
+    .stats-container {
+        width: 100%;
+        height: 11em;
+        overflow: hidden;
+    }
+
+    .stats .figure {
+        font-size: 1em;
+    }
+
+    .stats .figure-info {
+        height: 9em;
+        padding: 0.3em;
+        font-size: 10px;
+    }
+
+    .articles-section h1 {
+        font-size: 1.5em;
+        margin-block: 1.5em;
+    }
+
+    .article-wrapper {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .article-cont {
+        width: 100%;
+        height: 22em;
+        transform: scale(0.9);
+    }
+
+        .article-cont img {
+            height: 13em;
+        }
+
+    .about-container .about-bttn {
+        margin: 3em auto 2em auto;
+        font-size: 14px;
+    }
+
+    .about-container .text-para {
+        font-size: 13px;
+        line-height: 1.5em;
+        padding: 0 1.8em;
+    }
+
+    .about-container .excellence {
+        margin-top: 3em;
+        flex-direction: column;
+        padding: 0 1.5em;
+        height: 58em;
+    }
+
+    .excellence .image-section,
+    .excellence .text-section {
+        width: 100%;
+        min-width: auto;
+    }
+
+    .excellence .points {
+        height: 9em;
+    }
+
+    .excellence h1 {
+        font-size: 1.2em;
+        margin: 0.8em 0 0 0.5em;
+    }
+
+    .excellence p {
+        font-size: 0.85em;
+        margin: 0.5em 0.5em 0 0.8em;
+    }
+
+    .faculties-cont {
+        margin-top: 4em;
+        height: 85em;
+        overflow-y: hidden;
+    }
+
+        .faculties-cont h1 {
+            font-size: 1.5em;
+        }
+
+    .faculties {
+        transform: scale(0.9);
+        grid-template-columns: 1fr;
+        padding: 0.5em;
+        gap: 1.4em;
+    }
+
+    .faculty-item {
+        height: 13em;
+    }
+
+    .emblem i {
+        font-size: 4em;
+    }
+
+    .faculty-item p {
+        font-size: 11px;
+    }
+
+
+    .footer-section {
+        height: auto;
+        min-height: 35em;
+        padding: 0.5em;
+        transition: height 0.3s ease;
+    }
+
+        .footer-section .upper-footer {
+            grid-template-columns: repeat(1, 1fr);
+            gap: 0.5em;
+        }
+
+        .footer-section .footer-column {
+            height: auto;
+            min-height: 3.8em;
+            padding: 0.5em 0;
+            width: 100%;
+            max-width: 24em;
+            margin-left: auto;
+            margin-right: auto;
+            overflow: hidden;
+            transition: all 0.4s ease;
+            cursor: pointer;
+        }
+
+            .footer-section .footer-column.active {
+                min-height: auto;
+                padding-bottom: 1em;
+            }
+
+    .footer-column h2 {
+        text-align: center;
+        font-size: 1.2em;
+        padding: 0.3em 0;
+        position: relative;
+    }
+
+        .footer-column h2::after {
+            content: '▼';
+            position: absolute;
+            right: 1em;
+            font-size: 0.7em;
+            transition: transform 0.3s ease;
+        }
+
+    .footer-column.active h2::after {
+        transform: rotate(180deg);
+    }
+
+    .footer-column img {
+        display: none;
+        opacity: 0;
+        justify-self: center;
+        transition: transform 0.3s ease;
+    }
+
+    .footer-column.active img {
+        display: flex;
+        opacity: 1;
+    }
+
+    .footer-column ul {
+        transition: max-height 0.4s ease, opacity 0.3s ease;
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        padding: 0;
+        margin-top: 0.5em;
+    }
+
+    .footer-column.active ul {
+        max-height: 30em;
+        opacity: 1;
+    }
+
+    .footer-column p {
+        transition: max-height 0.4s ease, opacity 0.3s ease;
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+    }
+
+    .footer-column.active p {
+        max-height: 15em;
+        opacity: 1;
+        margin-top: 0.5em;
+    }
+
+    .footer-column p,
+    .footer-column li {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .footer-column hr {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0.3em;
+        margin-bottom: 0.3em;
+    }
+
+    .lower-footer {
+        height: auto;
+        min-height: 8em;
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+        gap: 1em;
+    }
+
+        .lower-footer img {
+            height: auto;
+            width: 60%;
+            max-width: 200px;
+            object-fit: contain;
+        }
+
+        .lower-footer .trademarks {
+            font-size: 12px;
+            text-align: center;
+        }
+
+    .logos {
+        display: flex;
+        gap: 1em;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+        .logos i {
+            text-align: center;
+            font-size: 24px;
+            width: 2em;
+            height: 2em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+}
+
+/* Extra small devices (360px and below) */
+@media (max-width: 390px) {
+    .navigation-items ul {
+        font-size: 10px;
+        width: 13em;
+    }
+
+    .navigation-items .mainNav {
+        left: -26%;
+    }
+
+
+    .navigation-items .nav-util {
+        /*  border: 1px solid black;*/
+        width: 60%;
+    }
+
+    .carousel-item img {
+        height: 18em;
+    }
+
+    .articles-section h1 {
+        font-size: 1.3em;
+    }
+
+    .faculties-cont h1 {
+        font-size: 1.3em;
+    }
+
+    .footer-column h2 {
+        font-size: 1.1em;
+    }
+
+    .footer-section {
+        min-height: 30em;
+    }
+}
