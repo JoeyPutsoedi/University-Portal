@@ -3,44 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\repositories\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:repositories\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\interfaces\\istudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:interfaces\\istudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\data\\logindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:data\\logindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\data\\sqlitedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:data\\sqlitedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\views\\student\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:views\\student\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|c:\\users\\user\\onedrive\\documents\\visual studio code projects\\university-portal\\aspnetcore_db\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BFF2D37D-A3B8-471F-9C7C-5A02C313F950}|ASPNETCore_DB.csproj|solutionrelative:views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,20 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 165,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAxwAkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-20T13:28:09.893Z",
-              "IsPinned": true
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AQIAALwAAAAAAAAAAAAjwNAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T19:00:53.134Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -71,123 +40,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Data\\LoginDBContext.cs",
-              "RelativeDocumentMoniker": "Data\\LoginDBContext.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Data\\LoginDBContext.cs",
-              "RelativeToolTip": "Data\\LoginDBContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T16:48:00.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T13:28:17.741Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Views\\Student\\Contact.cshtml",
-              "RelativeDocumentMoniker": "Views\\Student\\Contact.cshtml",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Views\\Student\\Contact.cshtml",
-              "RelativeToolTip": "Views\\Student\\Contact.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-20T05:31:39.178Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 268,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Views\\Student\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Student\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Views\\Student\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Student\\Edit.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAwAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-20T08:18:36.024Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IStudent.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Interfaces\\IStudent.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IStudent.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Interfaces\\IStudent.cs",
-              "RelativeToolTip": "Interfaces\\IStudent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T09:03:46.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StudentRepo.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Repositories\\StudentRepo.cs",
-              "RelativeDocumentMoniker": "Repositories\\StudentRepo.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Repositories\\StudentRepo.cs",
-              "RelativeToolTip": "Repositories\\StudentRepo.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAAADgAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T09:03:24.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T09:01:27.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "Controllers\\StudentController.cs",
-              "ViewState": "AQIAAAUBAAAAAAAAAAAgwCsBAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T16:48:44.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SQLiteDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Data\\SQLiteDBContext.cs",
-              "RelativeDocumentMoniker": "Data\\SQLiteDBContext.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Data\\SQLiteDBContext.cs",
-              "RelativeToolTip": "Data\\SQLiteDBContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T16:48:29.341Z",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Create.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code Projects\\University-Portal\\ASPNETCore_DB\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "Views\\Student\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-02T18:48:24.911Z",
               "EditorCaption": ""
             }
           ]

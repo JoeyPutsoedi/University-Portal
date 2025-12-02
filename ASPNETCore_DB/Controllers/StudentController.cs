@@ -77,11 +77,9 @@ namespace ASPNETCore_DB.Controllers
         public IActionResult Create()
         {
             Student student = new Student();
-            string fileName = "";
-            student.Photo = fileName;
+            student.StudentNumber = GenerateStudentNumber();
+            student.Photo = "";
             return View(student);
-
-            
         }
 
         [Authorize(Roles = "User")]
@@ -92,40 +90,36 @@ namespace ASPNETCore_DB.Controllers
             var files = HttpContext.Request.Form.Files;
             string webRootPath = _webHostEnvironment.WebRootPath;
             string upload = webRootPath + WebConstants.ImagePath;
-            string fileName = Guid.NewGuid().ToString();
-            string extension = Path.GetExtension(files[0].FileName);
-            using (var fileStream = new FileStream(Path.Combine(upload, fileName + extension),
-            FileMode.Create))
+
+            if (files.Count > 0)
             {
-                files[0].CopyTo(fileStream);
+                string fileName = Guid.NewGuid().ToString();
+                string extension = Path.GetExtension(files[0].FileName);
+                using (var fileStream = new FileStream(Path.Combine(upload, fileName + extension),
+                FileMode.Create))
+                {
+                    files[0].CopyTo(fileStream);
+                }
+                student.Photo = fileName + extension;
             }
-            student.Photo = fileName + extension;
+            else
+            {
+                student.Photo = "DefaultPic.png";
+            }
+
             try
             {
                 if (ModelState.IsValid)
                 {
                     _studentRepo.Create(student);
-
                 }
-
             }
             catch (Exception ex)
             {
                 throw new Exception("Student record not saved.");
             }
 
-            //var studentExist = _studentRepo.ByStudentNumber(this.User.Identity.ToString());
-
-            //if (studentExist != null)
-            //{
-            //    return RedirectToAction("Details", "Student", new { id =  studentExist.StudentNumber });
-            //}
-            //else
-            //{
-            //    return RedirectToAction("Create");
-            //}
-
-            return RedirectToAction("Details", new { id = student.StudentNumber});
+            return RedirectToAction("Details", new { id = student.StudentNumber });
         }
 
 
@@ -151,7 +145,7 @@ namespace ASPNETCore_DB.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Edit(Student student)
         {
-           
+
             string photoName = "DefaultPic.png";
 
             if (HttpContext.Request.Form.Files.Count > 0)
@@ -175,7 +169,7 @@ namespace ASPNETCore_DB.Controllers
             }
             else
             {
-               
+
                 student.Photo = photoName;
             }
             try
@@ -187,26 +181,13 @@ namespace ASPNETCore_DB.Controllers
                 throw new Exception("Student record not saved.");
             }
             return RedirectToAction("Details", new { id = student.StudentNumber });
+        }
 
-        //try
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        _studentRepo.Edit(student);
-        //    }
-        //}
-        //catch (Exception ex)
-        //{
-        //    throw new Exception("Student detail could not be edited");
-        //}
-
-        //return RedirectToAction(nameof(Index));
-    }
         [Authorize(Roles = "Admin")]
         [HttpGet]
         public IActionResult Delete(string id)
         {
-           
+
             ViewResult viewDetail = View();
             try
             {
@@ -243,7 +224,7 @@ namespace ASPNETCore_DB.Controllers
         }
 
         public IActionResult RoleAdmin()
-        {     
+        {
             User.IsInRole("Admin");
             return View("Register");
 
@@ -294,6 +275,31 @@ namespace ASPNETCore_DB.Controllers
         public IActionResult About()
         {
             return View("About");
+        }
+
+        // Method to generate student number
+        private string GenerateStudentNumber()
+        {
+            // Get all students from the database
+            var allStudents = _studentRepo.GetStudents(null, null);
+
+            // Year-based format (YYYY + 6-digit sequential)
+            int currentYear = DateTime.Now.Year;
+            var studentsThisYear = allStudents
+                .Where(s => s.StudentNumber.StartsWith(currentYear.ToString()))
+                .OrderByDescending(s => s.StudentNumber)
+                .FirstOrDefault();
+
+            if (studentsThisYear != null)
+            {
+                if (long.TryParse(studentsThisYear.StudentNumber, out long lastNumber))
+                {
+                    return (lastNumber + 1).ToString();
+                }
+            }
+
+            // First student of the year: YYYY000001
+            return currentYear.ToString() + "000001";
         }
     }
 }
