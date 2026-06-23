@@ -1,10 +1,14 @@
 ﻿FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+
 WORKDIR /src
 
-COPY . .
+COPY ASPNETCore_DB/ ASPNETCore_DB/
 
-RUN dotnet restore
-RUN dotnet publish -c Release -o /app/publish
+WORKDIR /src/ASPNETCore_DB
+
+RUN dotnet restore ASPNETCore_DB.csproj
+
+RUN dotnet publish ASPNETCore_DB.csproj -c Release -o /app/publish
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 
